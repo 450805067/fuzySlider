@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>滑动插件</title>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/fuzySlider.js"></script>
+	</head>
+	<style>
+		body {
+			width: 640px;
+			margin: 0 auto;
+		}
+		
+		* {
+			margin: 0 0;
+			padding: 0 0;
+		}
+	</style>
+
+	<body>
+		<div id="slider">
+			<div class="fuzy-tab">
+				<ul>
+					<li style="background-color: red">red</li>
+					<li style="background-color: black">black</li>
+					<li style="background-color: green">green</li>
+					<li style="background-color: orange">orange</li>
+				</ul>
+			</div>
+			<br/>
+			<div class="fuzy-container">
+				<div class="fuzy-wrapper">
+					<div class="fuzy-slider" style="background-color: red"></div>
+					<div class="fuzy-slider" style="background-color: black"></div>
+					<div class="fuzy-slider" style="background-color: green"></div>
+					<div class="fuzy-slider" style="background-color: orange"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$('#slider').slider({
+			/*width: 640,//宽
+			height: 640,//高
+			distance: 100,//最小滑动距离
+			speed: 2//速度(越大越慢)*/
+		});
+	</script>
+
+</html>
