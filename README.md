@@ -11,4 +11,4 @@ $('#slider').slider({
 	    speed: 2		//速度(越大越慢)
 });
 ```
-![](https://raw.githubusercontent.com/fuzhongyi/fuzySlider/master/fuzySlider/show-how.gif)
+![show-how](https://raw.githubusercontent.com/fuzhongyi/fuzySlider/master/fuzySlider/show-how.gif)
